@@ -43,6 +43,7 @@ Para iniciar a aplicação temos que executar o seguinte comandos no Ubuntu
 ## Utilização da API
 
 No navegador ou Postman(Método GET) por exemplo para chamar api temos que:
+
 `http://localhost:5000/songs/[Nome do Artista]`
 
 ### Um exemplo simples
