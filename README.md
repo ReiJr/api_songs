@@ -80,6 +80,7 @@ Para executar o teste execute o seguinte comando:
 `python -m pytest test_app.py`
 
 ==================== test session starts ====================
+
 platform linux2 -- 
 Python 2.7.15+, 
 pytest-4.6.5,
