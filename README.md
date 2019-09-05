@@ -26,14 +26,15 @@ https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi
 3. Clique em variáveis de ambiente
 4. Procure nas variáveis do sistema pela variável Path
 5. Clique em editar
-6. Verifique se os valores C:\Python27 e C:\Python26\Scripts existem no campo de valor da variável, caso não exista adicione ao final dos valores separando cada valor com ;. 
+6. Verifique se os valores C:\Python27 e C:\Python27\Scripts existem no campo de valor da variável, caso não exista adicione ao final dos valores separando cada valor com ;. 
 7. Clique em OK
+
 ### Instalação do Pip
 - Ubuntu
 `$ apt-get install python-pip`
 
 - Windows
-
+Faça donwload do https://bootstrap.pypa.io/get-pip.py e salve numa pasta. No cmd do windows execute na pasta que está o arquivo: `python get-pip.py`
 
 ### Instalação do Flask
 - Ubuntu
@@ -41,15 +42,26 @@ https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi
 
 - Windows
 
-### Instalação do Pytest
+No cmd execute: `python -m pip install -U Flask`
 
+### Instalação do Pytest
+- Ubuntu
 `$ pip install pytest`
 
-### Instalação do Requests
+- Windows
 
+No cmd execute: `python -m pip install -U pytest`
+
+### Instalação do Requests
+- Ubuntu
 `$ pip install requests`
 
-Para iniciar a aplicação temos que executar o seguinte comandos no Ubuntu
+- Windows
+
+No cmd execute: `python -m pip install -U Requests`
+
+## Iniciando a Aplicação
+Para iniciar a aplicação temos que executar o seguinte comandos:
 
 `python app.py`
 
