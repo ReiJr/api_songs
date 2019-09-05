@@ -16,21 +16,30 @@ Para instalações dos pré-requisitos executem os seguintes comandos:
 - Ubuntu
 `$ apt-get install python`
 
--Windows
+- Windows
 
 https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi
 
+
+1. Abra o painel de controle e navegue até as configurações de sistema
+2. Selecione as configurações avançadas do sistema
+3. Clique em variáveis de ambiente
+4. Procure nas variáveis do sistema pela variável Path
+5. Clique em editar
+6. Verifique se os valores C:\Python27 e C:\Python26\Scripts existem no campo de valor da variável, caso não exista adicione ao final dos valores separando cada valor com ;. 
+7. Clique em OK
 ### Instalação do Pip
 - Ubuntu
 `$ apt-get install python-pip`
 
--Windows
+- Windows
+
 
 ### Instalação do Flask
--Ubuntu
+- Ubuntu
 `$ pip install -U Flask`
 
--Windows
+- Windows
 
 ### Instalação do Pytest
 
