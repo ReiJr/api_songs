@@ -81,11 +81,17 @@ Para executar o teste execute o seguinte comando:
 
 ==================== test session starts ====================
 
+
 platform linux2 -- 
+
 Python 2.7.15+, 
+
 pytest-4.6.5,
+
 py-1.8.0, pluggy-0.12.0
+
 rootdir: /home/reinaldo/api_genius/api_songs
+
 collected 1 item                                                                                    
 
 test_app.py .                                                [100%]
